@@ -16,8 +16,8 @@ class JumiaPipeline(object):
     def create_connection(self):
         self.conn = mysql.connector.connect(
             host = 'localhost',
-            user = '**********',
-            password = '*****',
+            user = 'root',
+            password = 'Boyfaded7552',
             database = 'jumia'
         )
         self.curr = self.conn.cursor()
